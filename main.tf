@@ -55,7 +55,7 @@ module "eks" {
   eks_managed_node_groups = {
     default_nodes = {
       min_size       = 1
-      max_size       = 3
+      max_size       = 1
       instance_types = [var.instance_type]
     }
   }
